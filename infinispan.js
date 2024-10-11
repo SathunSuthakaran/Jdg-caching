@@ -6,5 +6,5 @@ const connectionOptions = {
 }
 
 infinispan.client(connectionOptions).then(client=> {
-    
+    client.connect()
 })
